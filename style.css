@@ -1,0 +1,400 @@
+.font,
+.font a,
+.font p,
+.font h2,
+a.font {
+    color: black;
+    letter-spacing: 0em;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.font h1 {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin: 0px 0px 0px 0px;
+}
+
+.registerButton, .carRentButton {
+    height: 36px;
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    background-color: #5CB85F;
+    border-style: none;
+}
+
+.registerButton {
+    width: 81px;
+}
+.carRentButton{
+    width: 140px;
+}
+
+.registerButton a, .carRentButton a {
+    font-family: Helvetica;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: white;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    background-color: #F1F3FF;
+}
+
+nav.navbar.navbar-expand-lg {
+    padding: 24px 0px 0px 0px;
+}
+
+.rectangle {
+    background-color: #0D28A6;
+    width: 100px;
+    height: 34px;
+}
+
+header .rectangle {
+    margin-left: 16px;
+}
+
+div#offcanvasNavbar.offcanvas.offcanvas-end.show {
+    width: 180px;
+}
+
+
+div.offcanvas-header {
+    margin: 32px 0px 0px 16px;
+    padding: 0px 0px 0px 0px;
+    width: 140px;
+}
+
+div.offcanvas-body {
+    margin: 16px 0px 0px 16px;
+    padding: 0px 0px 0px 0px;
+}
+
+.navbar-toggler {
+    margin-right: 16px;
+}
+
+.offcanvas-title {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+.nav-item {
+    width: 88px;
+    justify-content: left;
+    display: flex;
+}
+
+a.nav-link {
+    text-decoration: none;
+    font-weight: 400;
+    text-align: left;
+}
+
+.nav-item-our {
+    display: flex;
+    align-items: left;
+}
+
+.ourServices {
+    padding-top: 32px;
+    padding-left: 16px;
+    background-color: #F1F3FF;
+}
+
+.ourServicesDesc h1{
+    margin-bottom: 16px;
+}
+
+.carRentButton {
+    margin-bottom: 24px;
+}
+
+.carImage img {
+    width: 344.22px;
+    height: 199px;
+  }
+
+  .faq {
+    width: 100%;
+    padding: 60px 16px 52px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .faqDesc h2 {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .faqDesc .font {
+    
+    text-align: center;
+  }
+
+
+  .accordion {
+    margin-top:8px;
+    width: 100%;
+  }
+
+  .accordion-item {
+    margin-bottom: 16px;
+  }
+
+  .accordion-header,
+  .accordion-body {
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 3px;
+
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .accordion-button.collapsed {
+    padding: 16px 24px 16px 24px;
+  }
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.contactUs {
+    font-weight: 300;
+    text-align: left;
+}
+
+.navbarFooter {
+    font-weight: 400;
+    text-align: left;
+}
+
+div.navbarFooterPart.font,
+.connectWith,
+.socialMediaPart,
+.copyright h2 {
+    margin-bottom: 16px;
+}
+
+.font a {
+    text-decoration: none;
+}
+
+footer .rectangle {
+    margin: 0px 0px 0px 0px;
+}
+
+
+@media only screen and (min-width:992px) {
+
+    .nav-item-our {
+        width: 105px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    a.nav-link {
+        text-decoration: none;
+        justify-content: center;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .rectangle {
+        margin-left: 136px;
+    }
+
+    .nav-item {
+        width: 88px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .navbar-nav {
+        margin-right: 136px;
+    }
+
+    div.offcanvas-body {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .ourServices {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 136px;
+        padding-right: 0px;
+    }
+
+    .ourServicesDesc h1 {
+        width: 94.66%;
+    }
+
+    .ourServicesDesc p {
+        width: 78%;
+    }
+
+    .carImage img {
+        width: 704px;
+        height: 407px;
+      }
+
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 136px;
+        padding-right: 163px;
+    }
+
+    .contactUs {
+        width: 23.488%;
+        height: 112px;
+        font-weight: 300;
+        text-align: left;
+
+    }
+
+    .navbarFooter {
+        width: 6.923%;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .navbarFooterPart {
+        margin-bottom: 16px;
+    }
+
+    .navbarFooterPart a {
+        text-decoration: none;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .socialMedia {
+        width: 23.488%;
+        height: 128px;
+    }
+
+    .connectWith {
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .socialMediaPart {
+        width: 224px;
+        height: 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .socialMediaPart img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .copyright {
+        width: 23.488%;
+    }
+
+    .copyright h2 {
+        font-weight: 300;
+        text-align: left;
+    }
+
+    header .rectangle {
+        margin-left: 136px;
+    }
+
+    .faq {
+        width: 100%;
+        padding-top: 60px;
+        padding-left:136px;
+        padding-right: 136px;
+        padding-bottom: 134px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    
+      }
+
+      .faqDesc {
+        width:42.809%;
+      }
+    
+      .faqDesc h2 {
+        text-align: left;
+        margin-bottom: 16px;
+      }
+    
+      .faqDesc .font {
+        text-align: left;
+      }
+    
+    
+      .accordion {
+        margin-top:8px;
+        width: 57.191%;
+      }
+
+      div#accordionExample.accordion{
+        margin:0px
+      }
+    
+      .accordion-item {
+        margin-bottom: 16px;
+      }
+    
+      .accordion-header,
+      .accordion-body {
+        border-style: solid;
+        border-width: 1px;
+        border-color: gray;
+        border-radius: 3px;
+    
+        font-family: Helvetica;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    
+      .accordion-button.collapsed {
+        padding: 16px 24px 16px 24px;
+      }
+
+}
